@@ -4,6 +4,31 @@
         "mimeType": "image/x-mkcd-f4",
         "displayName": "Player"
     },
+    "image2": {
+        "data": "hwQQABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJCIAQAAAICYmWYZAACZmZlpZpYAAIiZiGlmlgAAAJCZmWYZAAAAAACQiQkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+        "mimeType": "image/x-mkcd-f4",
+        "displayName": "Water-Ball"
+    },
+    "image3": {
+        "data": "hwQQABAAAAAAAAAAAAAAAAAREdHdEREAEBERjWYdEQEREdFmjR0REd3dHd3dERERZmbWZmjdER2GZtZoZmbd1mZm1maGZtaGhmbWhmaG3dhpZtaGZt0RHd3dEd3dERERERHRaG0dEREQERFtaB0RAQAREdHdEREAAAAAAAAAAAAAAAAAAAAAAA==",
+        "mimeType": "image/x-mkcd-f4",
+        "displayName": "Player-Shield"
+    },
+    "image4": {
+        "data": "hwQQABAAAAAAAAAAAAAAAAAAAAAAAAAAAPD/AAAAAAAA393/AAAAAADf3d3/AAAAAN8d3d0PAAAA3xER0f0AAADfHR3d0Q8AAN8dHd3RDwAA3xER0f0AAADfHd3dDwAAAN/d3f8AAAAA393/AAAAAADw/wAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+        "mimeType": "image/x-mkcd-f4",
+        "displayName": "Shield"
+    },
+    "image5": {
+        "data": "hwQQABAAAAAAABERGREBAAAQEZGREREAABARGREZEQAAEJEREZERAAAQGRERERkAABARERYREQAAEBFhYRERAAAQERYRFhEAABBhERFhEQAAEBYREREWAAAQEREYEREAABARgYEREQAAEBEYERgRAAAQgRERgREAABAYERERGAAAABEREREBAA==",
+        "mimeType": "image/x-mkcd-f4",
+        "displayName": "Slow Sprite"
+    },
+    "image6": {
+        "data": "hwQQABAAAAAAAAAAAAAAAAAAAP///w8AAADwEfER8QAADx8RERERD/D/ERERERHxD/AREREREfHw8BERERER8fD/H///ERH/8PAREfEREfEP8BER8RER8fD/ERHxERHxAA8fEREREQ8AAPAR8RHxAAAAAP///w8AAAAAAAAAAAAAAAAAAAAAAA==",
+        "mimeType": "image/x-mkcd-f4",
+        "displayName": "TimeSlow"
+    },
     "*": {
         "mimeType": "image/x-mkcd-f4",
         "dataEncoding": "base64",
