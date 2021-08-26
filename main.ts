@@ -8,7 +8,7 @@ namespace SpriteKind {
 sprites.onOverlap(SpriteKind.Player, SpriteKind.Slow, function (sprite, otherSprite) {
     Slow = true
     SlowSprite.destroy(effects.disintegrate, 100)
-    pause(10000)
+    pause(5000)
     Slow = false
 })
 sprites.onOverlap(SpriteKind.Player, SpriteKind.Shield, function (sprite, otherSprite) {
@@ -81,7 +81,7 @@ forever(function () {
         TimeSlowSprite.startEffect(effects.ashes)
         TimeSlowSprite.setPosition(randint(16, 154), randint(16, 114))
         pause(TimeSlow_Delay)
-        timer.after(TimeSlow_Delay - 1000, function () {
+        timer.after(TimeSlow_Delay - 2000, function () {
             TimeSlowSprite.destroy(effects.disintegrate, 100)
         })
         pause(TimeSlow_Delay)
@@ -95,7 +95,7 @@ forever(function () {
         SlowSprite.startEffect(effects.ashes)
         SlowSprite.setPosition(randint(16, 154), randint(16, 114))
         pause(Slow_Delay)
-        timer.after(Slow_Delay - 1000, function () {
+        timer.after(Slow_Delay - 2000, function () {
             SlowSprite.destroy(effects.disintegrate, 100)
         })
         pause(Slow_Delay)
@@ -109,20 +109,11 @@ forever(function () {
         ShieldSprite.startEffect(effects.ashes)
         ShieldSprite.setPosition(randint(16, 154), randint(16, 114))
         pause(Shield_Delay)
-        timer.after(Shield_Delay - 1000, function () {
+        timer.after(Shield_Delay - 2000, function () {
             ShieldSprite.destroy(effects.disintegrate, 100)
         })
         pause(Shield_Delay)
     }
-})
-forever(function () {
-    MyEnemy = sprites.create(assets.image`Water-Ball`, SpriteKind.Enemy)
-    MyEnemy.startEffect(effects.ashes)
-    MyEnemy.setPosition(randint(0, 160), randint(0, 120))
-    MyEnemy.setVelocity(50, 50)
-    MyEnemy.setBounceOnWall(true)
-    info.changeScoreBy(1)
-    pause(randint(2000, 5000))
 })
 forever(function () {
     if (Slow == true) {
@@ -139,4 +130,13 @@ forever(function () {
     } else {
         MyPlayer.setImage(assets.image`Player`)
     }
+})
+forever(function () {
+    MyEnemy = sprites.create(assets.image`Water-Ball`, SpriteKind.Enemy)
+    MyEnemy.startEffect(effects.ashes)
+    MyEnemy.setPosition(randint(0, 160), randint(0, 120))
+    MyEnemy.setVelocity(50, 50)
+    MyEnemy.setBounceOnWall(true)
+    info.changeScoreBy(1)
+    pause(randint(2000, 5000))
 })
