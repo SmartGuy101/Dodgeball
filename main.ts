@@ -23,7 +23,7 @@ sprites.onOverlap(SpriteKind.Player, SpriteKind.TimeSlow, function (sprite, othe
 })
 sprites.onOverlap(SpriteKind.Player, SpriteKind.Enemy, function (sprite, otherSprite) {
     if (Shield == !(true)) {
-    	
+        game.over(false)
     } else {
         otherSprite.destroy(effects.disintegrate, 100)
         timer.after(110, function () {
